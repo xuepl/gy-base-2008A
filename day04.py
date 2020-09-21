@@ -101,9 +101,15 @@ gitlab 腾讯
 
 6、新建.gitignore文件，填入不想上传的文件
 
+7、把代码添加到本地仓库   git add .
 
+8、绑定邮箱和用户名 （第一次使用git需要绑定下，后续就不需要了）
 
+9、封板 git commit -m "备注信息"
 
+10、关联远程仓库   git remote add origin 远程仓库地址 （绑定一次就够了）
+
+11、上传代码至远程仓库 git push -u origin 分支名称（master是主分支，不要随意操作）
 
 '''
 
